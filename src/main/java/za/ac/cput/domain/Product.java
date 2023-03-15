@@ -15,6 +15,9 @@ public class Product {
         this.Quantity = quality;
     }
 
+    public Product(String apple, double v) {
+    }
+
     public static String getId() {
         return Id;
     }
